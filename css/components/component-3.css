@@ -1,0 +1,54 @@
+.c3 {
+   padding-top: 0rem;
+}
+
+.c3-wrap{
+    height: 80.3rem;
+    width: 37rem;
+    padding: 1.9rem 4.2rem 27.2rem 4.1rem;
+    background-image: url(../../images/c3-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 4rem;
+}
+.c3-title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 200%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff2af;
+}
+.c3-undertitle{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 1.4rem;
+line-height: 129%;
+text-align: center;
+color: #fff;
+}
+.c3-item{
+    display: flex;
+    gap: 1.3rem;
+    align-items: baseline;
+}
+.c3-item-wrap{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.9rem;
+    gap: 1.2rem;
+}
+.c3-days{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 1.4rem;
+line-height: 129%;
+text-align: center;
+color: #fff2af;
+}
+.c3-days-img{
+    height: 13.2rem;
+    margin-top: 4rem;
+    
+}

@@ -1,0 +1,197 @@
+header {
+    padding-top: 2.9rem;
+    padding-bottom: 4.2rem;
+    background-image: url(../../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+header svg{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.header-title{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 9.5rem;
+line-height: 105%;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+margin-top: 1rem;
+}
+.header-pers{
+    height: 79.9rem;
+    width: 42.8rem;
+    margin-left: -3rem;
+    margin-top: -10.5rem;
+    margin-bottom: -47rem;
+}
+.header-price-wrap{
+display: flex;
+gap: 1rem;
+justify-content: center;
+align-items: center;
+margin-top: 1.2rem;
+margin-bottom: 1.9rem;
+}
+.header-price-new{
+    width: 16.1rem;
+    height: 6.9rem;
+    background: linear-gradient(180deg, #fff2af 0%, #dcc290 100%);
+    border: 1px solid rgba(216, 165, 255, 0.2);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.header-price-new p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 125%;
+    color: #4d4837;
+}
+.header-price-new span{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 40%;
+    text-align: center;
+    color: #4d4837;
+}
+.header-price-old{
+    width: 16.1rem;
+    height: 6.9rem;
+    border: 1px solid #841d23;
+    background: #3d0b0e;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.header-price-old p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 125%;
+    color: #825456;
+}
+.header-price-old span{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 50%;
+    text-align: center;
+    color: #825456;
+    position: relative;
+}
+.header-price-old span::before{
+    content: "";
+    display: block;
+    border: 1px solid #825456;
+    width: 4.6rem;
+    height: 0rem;
+    left: 0rem;
+    top: 0.7rem;
+    position: absolute;
+}
+
+.header-underprice{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 143%;
+text-align: center;
+color: #fff;
+}
+.header-btn{
+    background-image: url(../../images/header-btn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 36.9rem;
+    height: 8.8rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 137%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff2af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.6rem;
+    margin-bottom: 4.2rem;
+    z-index: 1;
+    position: relative;
+}
+.header-state_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 131%;
+    color: #fff;
+}
+.header-state-div{
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+    align-items: center;
+}
+.header-state-div img{
+    height: 6.5rem;
+    width: 6.5rem;
+}
+.header-timer_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.timer {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.hours-wrap p,
+.minutes-wrap p,
+.seconds-wrap p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    text-align: center;
+    color: #bc78f2;
+    margin-top: 0.5rem;
+}
+
+#hours,
+#minutes,
+#seconds {
+    background-color: #ffff;
+    border-radius: 0.5rem;
+    width: 8.7rem;
+    height: 3rem;
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 92%;
+    text-align: center;
+    color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
