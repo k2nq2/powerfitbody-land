@@ -314,7 +314,7 @@ color: #fff;
     border-radius: 0.5rem;
     width: 14.5rem;
     height: 5.7rem;
-    background-image: url(../../images/modal-old.png);
+    background-image: url(../images/modal-old.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: var(--second-family);
