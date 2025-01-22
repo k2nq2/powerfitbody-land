@@ -1,0 +1,80 @@
+.slider {
+    padding-top: 9rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.slider img {
+    width: 37rem;
+    border-radius: 0.5rem;
+}
+
+.slider .subtitle {
+    margin-bottom: 5rem;
+}
+
+.receipts-slider .slick-next,
+.receipts-slider .slick-prev {
+    display: none;
+    z-index: 2;
+    right: 0;
+    background-image: url(../../images/slider-arrow.svg)!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    width: 6rem!important;
+    height: 6rem!important;
+    top: 125%;
+    transform: translateY(-50%);
+}
+
+.receipts-slider .slick-prev {
+    left: 23.5rem;
+    right: auto;
+    transform: translateY(-50%);
+}
+
+.receipts-slider .slick-next {
+    background-image: url(../../images/slider-arrow2.svg)!important;
+} 
+
+.receipts-slider .slick-next:before,
+.receipts-slider .slick-prev:before {
+    display: none!important;
+}
+
+.slick-dots li button:before {
+    display: block !important;
+    color: #595959 !important;
+    font-size: 0.8rem !important;
+    opacity: 1 !important;
+}
+.slick-dots{
+    bottom: -8.5rem !important;
+    text-align: left !important;
+
+}
+.slider-text{
+    text-align: center;
+    margin-top: 15.2rem;
+}
+.slick-dots li.slick-active button:before {
+    -webkit-text-stroke: 3px #C83413;
+    opacity: 1 !important;
+}
+.slick-dots li{
+    margin: 0 0px !important;
+}
+.swipe{
+    width: 16.6rem !important;
+    margin-bottom: 5rem;
+}
+.slide-under{
+    width: 37rem;
+    height: 11rem;
+    padding: 3.5rem 3rem 4.1rem 8.8rem;
+    background-image: url(../../images/slider-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 17rem;
+}
